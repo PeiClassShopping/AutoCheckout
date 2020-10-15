@@ -1,6 +1,21 @@
 # CPS-IoT Week Competition
 Welcome to AiFi's CPS-IoT Autocheckout Competition. This document details the competition and will help you get started.
 
+## Important Changes for 18-649, Fall 2020
+
+*EXPERIMENTAL*
+
+You can run this without docker by using a mongodb server I set up in the cloud. We may switch to this later.
+
+Inside the main directory of the repository, type `pip3 install -e .`. This will install the cpsdriver module in your local python3 installation. If you are using a conda environment, make sure you switch to the environment before installing.
+
+You can then use the remote mongodb by running:
+```
+python3 cpsdriver/main.py --db-address 'mongodb+srv://peiclass2020:<password>@cluster0.hxuhd.mongodb.net' --command cps-test-01
+```
+
+The password is in the Slack channel.
+
 ## Overview
 This repository will help you get started with examples on how to use the Public Datasets available at http://aifi.io/research under Sample Data.
 
