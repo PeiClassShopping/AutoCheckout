@@ -16,6 +16,17 @@ python3 cpsdriver/main.py --db-address 'mongodb+srv://peiclass2020:<password>@cl
 
 The password is in the Slack channel.
 
+To load other test cases, change the `--command` argument. Currently video is available for:
+- BASELINE-1
+- BASELINE-5
+- BASELINE-10
+- BENCHMARK-1
+- BENCHMARK-2
+- TEAM-5-DAY-1-TEST-3
+
+There are other BASELINE- cases available, but they do not have videos yet.
+Download the videos from https://cmu.box.com/s/0zwqdz8n7z22umnmus32em439ig3vsjk
+
 ## Overview
 This repository will help you get started with examples on how to use the Public Datasets available at http://aifi.io/research under Sample Data.
 
